@@ -5,5 +5,4 @@ models
 .DS_Store
 __pycache__
 *.zip
-*.csv
 *_paths.txt
