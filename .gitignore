@@ -1,0 +1,9 @@
+MRNet-v1.0
+data
+models
+.ipynb_checkpoints
+.DS_Store
+__pycache__
+*.zip
+*.csv
+*_paths.txt
