@@ -1,0 +1,9 @@
+https://stanfordmlgroup.github.io/competitions/mrnet/
+
+https://github.com/MisaOgura/MRNet
+
+
+python3 -u src/train_cnn_models.py MRNet-v1.0 axial 10
+python3 -u src/train_lr_models.py MRNet-v1.0 /models
+
+python3 -u src/evaluate.py all_valid_paths.csv output/dir/predictions.csv MRNet-v1.0/valid_labels.csv
