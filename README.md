@@ -10,13 +10,13 @@ To use:
 Training:
 <br>
 
-$ python -u src/train_cnn_models.py MRNet-v1.0 axial 10
+$ python3 -u src/train_cnn_models.py MRNet-v1.0 axial 10
 <br>
 
-$ python -u src/train_cnn_models.py MRNet-v1.0 coronal 10
+$ python3 -u src/train_cnn_models.py MRNet-v1.0 coronal 10
 <br>
 
-$ python -u src/train_cnn_models.py MRNet-v1.0 sagittal 10
+$ python3 -u src/train_cnn_models.py MRNet-v1.0 sagittal 10
 <br>
 
 $python3 -u src/train_lr_models.py MRNet-v1.0 /models
